@@ -1,10 +1,16 @@
-# minimum-docker-laravel
+# vue-laravel-pagination
+
+Vue(Nuxt)とLaravelでのページネーションの実装例です。
 
 ## 環境構築
 
 ```bash
-make create-project
-make up
+# APIの起動
+cd backend/ && composer install
+cd ../ && make up
+
+# フロントエンドの起動
+cd frontend/ && yarn install && yarn run dev
 ```
 
 ## 参考
