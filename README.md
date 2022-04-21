@@ -9,6 +9,8 @@ Vue(Nuxt)とLaravelでのページネーションの実装例です。
 cd backend/ && composer install
 cd ../ && make up
 
+# TODO: laravelの.envについて
+
 # フロントエンドの起動
 cd frontend/ && yarn install && yarn run dev
 ```
