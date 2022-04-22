@@ -14,6 +14,6 @@ class TaskController extends Controller
 
     public function index()
     {
-        return TaskResource::collection($this->taskModel->with('status')->paginate(10));
+        return TaskResource::collection($this->taskModel->with('status')->paginate(15));
     }
 }
